@@ -8,12 +8,10 @@ void usage(char *exec) {
     printf("       <char_code> Decimal character code between 0 and 127\n");
 }
 
-void render(char *bitmap) {
-    int x,y;
-    int set;
-    int mask;
-    for (x=0; x < 8; x++) {
-        for (y=0; y < 8; y++) {
+void render(const unsigned char *bitmap) {
+    unsigned int set;
+    for (unsigned int x=0U; x < 8U; x++) {
+        for (unsigned int y=0U; y < 8U; y++) {
             set = bitmap[x] & 1 << y;
             printf("%c", set ? 'X' : ' ');
         }
@@ -32,8 +30,8 @@ int main(int argc, char **argv) {
         usage(argv[0]);
         return 2;
     }
-    char *bitmap = font8x8_basic[ord];
-    
+    const unsigned char *bitmap = font8x8_basic[ord];
+
     render(bitmap);
     return 0;
 }
