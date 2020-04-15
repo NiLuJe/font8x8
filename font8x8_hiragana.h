@@ -18,6 +18,8 @@
  * Fetched from: http://dimensionalrift.homelinux.net/combuster/mos3/?p=viewsource&file=/modules/gfx/font8_8.asm
  **/
 
+#pragma once
+
 // Contains an 8x8 font map for unicode points U+3040 - U+309F (Hiragana)
 // Constant: font8x8_3040
 static const unsigned char font8x8_hiragana[96][8] = {

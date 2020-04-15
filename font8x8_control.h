@@ -18,6 +18,8 @@
  * Fetched from: http://dimensionalrift.homelinux.net/combuster/mos3/?p=viewsource&file=/modules/gfx/font8_8.asm
  **/
 
+#pragma once
+
 // Constant: font8x8_0080
 // Contains an 8x8 font map for unicode points U+0080 - U+009F (C1/C2 control)
 static const unsigned char font8x8_control[32][8] = {

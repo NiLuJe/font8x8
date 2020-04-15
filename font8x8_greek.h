@@ -18,6 +18,8 @@
  * Fetched from: http://dimensionalrift.homelinux.net/combuster/mos3/?p=viewsource&file=/modules/gfx/font8_8.asm
  **/
 
+#pragma once
+
 // Constant: font8x8_0390
 // Contains an 8x8 font map for unicode points U+0390 - U+03C9 (greek characters)
 static const unsigned char font8x8_greek[58][8] = {

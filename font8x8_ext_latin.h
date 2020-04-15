@@ -18,6 +18,8 @@
  * Fetched from: http://dimensionalrift.homelinux.net/combuster/mos3/?p=viewsource&file=/modules/gfx/font8_8.asm
  **/
 
+#pragma once
+
 // Constant: font8x8_00A0
 // Contains an 8x8 font map for unicode points U+00A0 - U+00FF (extended latin)
 static const unsigned char font8x8_ext_latin[96][8] = {

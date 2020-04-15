@@ -18,6 +18,8 @@
  * Fetched from: http://dimensionalrift.homelinux.net/combuster/mos3/?p=viewsource&file=/modules/gfx/font8_8.asm
  **/
 
+#pragma once
+
 // Constant: font8x8_2500
 // Contains an 8x8 font map for unicode points U+2500 - U+257F (box drawing)
 static const unsigned char font8x8_box[128][8] = {
